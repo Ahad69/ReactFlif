@@ -20,12 +20,20 @@ const Data = [
 ];
 
 const Banner = () => {
+  const settings = {
+
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 2000,
+
+  };
   return (
     <Fragment>
       <section className="p-0">
-        <Slider className="slide-1 home-slider">
+        <Slider className="slide-1  home-slider" {...settings}>
           {Data.map((data, i) => {
             return (
+
               <MasterBanner
                 key={i}
                 img={data.img}
@@ -37,7 +45,7 @@ const Banner = () => {
           })}
         </Slider>
       </section>
-    </Fragment>
+    </Fragment >
   );
 };
 

@@ -20,6 +20,7 @@ const CartContainer = ({ icon }) => {
           <div>
             <Media src={icon.src} className="img-fluid" alt="" />
             <i className="fa fa-shopping-cart"></i>
+
           </div>
         </Link>
         <ul className="show-div shopping-cart">
@@ -40,7 +41,7 @@ const CartContainer = ({ icon }) => {
                 </div>
               </li>
               <li>
-                <div className="buttons view-cart">
+                <div className="buttons  view-cart">
                   <Link href={`/page/account/cart`}>
                     <a>view cart</a>
                   </Link>

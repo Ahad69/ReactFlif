@@ -61,14 +61,14 @@ const TabContent = ({
   return (
     <Row className="no-slider">
       {!data ||
-      !data.products ||
-      !data.products.items ||
-      data.products.items.length === 0 ||
-      loading ? (
+        !data.products ||
+        !data.products.items ||
+        data.products.items.length === 0 ||
+        loading ? (
         data &&
-        data.products &&
-        data.products.items &&
-        data.products.items.length === 0 ? (
+          data.products &&
+          data.products.items &&
+          data.products.items.length === 0 ? (
           <Col xs="12">
             <div>
               <div className="col-sm-12 empty-cart-cls text-center">
@@ -150,7 +150,7 @@ const SpecialProducts = ({
     },
   });
 
-  console.log("data product 154",data);
+  console.log("data product 154", data);
 
   return (
     <div>
@@ -162,7 +162,7 @@ const SpecialProducts = ({
             <div className={title}>
               <h4>{heading}</h4>
               {/* exclusive products */}
-              <h2 className={inner}>special products</h2>
+              <h2 className={inner}>special products 1</h2>
               {line ? (
                 <div className="line"></div>
               ) : hrClass ? (

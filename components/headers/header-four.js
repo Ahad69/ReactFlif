@@ -13,7 +13,7 @@ const HeaderFour = ({ logoName, topClass, fluid, hfluid }) => {
 
   /*=====================
          Pre loader
-		 ==========================*/
+     ==========================*/
 
   useEffect(() => {
     setTimeout(function () {
@@ -79,7 +79,7 @@ const HeaderFour = ({ logoName, topClass, fluid, hfluid }) => {
 
                         <Currency icon={"/assets/images/icon/setting.png"} />
                         {/*Header Cart Component */}
-                        <CartContainer icon={"/assets/images/icon/cart.png"} />
+                        <CartContainer icon={"/assets/images/icon/setting.png"} />
                       </ul>
                     </div>
                   </div>

@@ -1,8 +1,5 @@
 export const MENUITEMS = [
-   {
-      title: 'Home'
 
-   },
    {
       title: 'Shop', type: 'sub', children: [
          // { path: '/shop/left_sidebar', title: 'Left Sidebar', type: 'link' },
@@ -48,8 +45,8 @@ export const MENUITEMS = [
          },
          { path: '/layouts/Beauty', title: 'Beauty', type: 'link' },
          {
-            title: 'electronic', type: 'sub', children: [
-               { path: '/layouts/Electronic/Electronic-1', title: 'Electronic-1', type: 'link', },
+            title: 'Gadget and Gear', type: 'sub', children: [
+               { path: '/layouts/Electronic/Electronic-1', title: 'Mobile', type: 'link', },
                { path: '/layouts/Electronic/Electronic-2', title: 'Electronic-2', type: 'link', },
             ]
          },

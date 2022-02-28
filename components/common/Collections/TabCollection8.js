@@ -49,10 +49,10 @@ const TabContent = ({ data, loading, cartClass, startIndex, endIndex }) => {
   return (
     <Row className=" no-slider five-product">
       {!data ||
-      !data.products ||
-      !data.products.items ||
-      data.products.items.length === 0 ||
-      loading ? (
+        !data.products ||
+        !data.products.items ||
+        data.products.items.length === 0 ||
+        loading ? (
         <div className="row mx-0 margin-default">
           <div className="col-xl-3 col-lg-4 col-6">
             <PostLoader />

@@ -9,6 +9,8 @@ import { Product4 } from "../../../services/script";
 import Instagram from "../../../components/common/instagram/instagram1";
 import MasterParallaxBanner from "../Fashion/Components/MasterParallaxBanner";
 import MasterFooterTwo from "../../../components/footers/common/MasterFooterTwo";
+import ProductSection from "../../product-details/common/product_section";
+import ProductSection2 from "../../product-details/common/product_section2";
 
 const Fashion2 = () => {
   return (
@@ -37,6 +39,8 @@ const Fashion2 = () => {
         subTitle2="special offer"
       />
       <ProductSlider type="fashion" />
+      <ProductSection></ProductSection>
+      <ProductSection2></ProductSection2>
       <Instagram type="fashion" />
       <MasterFooterTwo
         footerSection=" border-b"

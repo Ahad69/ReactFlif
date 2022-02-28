@@ -284,24 +284,26 @@ const ThemeSettings = () => {
             </div>
           </div>
           <div className="setting-body">
+
+
             <div
-              className={`setting-title ${isOpen && collapse == 1 ? "active" : ""
+              className={`setting-title ${isOpen && collapse == 2 ? "active" : ""
                 }`}
             >
               <h4
                 onClick={() => {
-                  setCollapse(1);
+                  setCollapse(2);
                   setIsOpen(!isOpen);
                 }}
               >
-                layout
+                Fashion
                 <span className="according-menu"></span>
               </h4>
             </div>
-            <Collapse isOpen={collapse === 1 ? isOpen : false}>
+            <Collapse isOpen={collapse === 2 ? isOpen : false}>
               <div className="setting-contant">
                 <Row className="demo-section">
-                  {LayoutData.map((data, i) => {
+                  {ShopData.map((data, i) => {
                     return (
                       <MasterComponent
                         key={i}
@@ -436,44 +438,7 @@ const ThemeSettings = () => {
                 </ul>
               </div>
             </Collapse>
-            <div className="buy_btn">
-              <a
-                href="https://themeforest.net/item/flif-responsive-react-ecommerce-template/23067773?s_rank=1"
-                className="btn btn-block purchase_btn"
-              >
-                <i className="fa fa-shopping-cart" aria-hidden="true"></i>{" "}
-                purchase flif now!
-              </a>
-              <a
-                href="https://themeforest.net/item/flif-responsive-angular-ecommerce-template/22905358?s_rank=3"
-                className="btn btn-block purchase_btn"
-              >
-                <Media
-                  src={`/assets/images/icon/angular.png`}
-                  alt=""
-                  className="img-fluid"
-                />{" "}
-                flif Angular
-              </a>
-              <a
-                href="https://themeforest.net/item/flif-responsive-ecommerce-html-template/22809967"
-                className="btn btn-block purchase_btn"
-              >
-                <i className="fa fa-html5" aria-hidden="true"></i> flif
-                HTML
-              </a>
-              <a
-                href="https://themeforest.net/item/flif-multipurpose-shopify-sections-theme/23093831?s_rank=1"
-                className="btn btn-block purchase_btn"
-              >
-                <Media
-                  src={`/assets/images/icon/shopify.png`}
-                  alt=""
-                  className="img-fluid"
-                />{" "}
-                flif Shopify
-              </a>
-            </div>
+
           </div>
         </div>
       </div>
@@ -507,12 +472,7 @@ const ThemeSettings = () => {
             </p>
           ))}
         </ModalBody>
-        <ModalFooter>
-          <p className="lh-cls">
-            <b>Note: </b>Copy upper config and paste it in{" "}
-            <b>"/components/customizer/config.json"</b>{" "}
-          </p>
-        </ModalFooter>
+
       </Modal>
 
       <ToastContainer />

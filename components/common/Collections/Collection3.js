@@ -80,7 +80,7 @@ const TopCollection = ({
       setDelayProduct(false);
     }, 1);
   }, [delayProduct]);
-  
+
   return (
     <>
       <section className={designClass}>
@@ -94,6 +94,7 @@ const TopCollection = ({
                   <div className={innerClass}>
                     {subtitle ? <h4>{subtitle}</h4> : ""}
                     <h2 className={inner}>{title}</h2>
+                    <hr></hr>
                     {titleClass ? (
                       <hr role="tournament6" />
                     ) : (
@@ -154,10 +155,10 @@ const TopCollection = ({
             <Container>
               <Row className="margin-default">
                 {!data ||
-                !data.products ||
-                !data.products.items ||
-                !data.products.items.length === 0 ||
-                loading ? (
+                  !data.products ||
+                  !data.products.items ||
+                  !data.products.items.length === 0 ||
+                  loading ? (
                   <div className="row margin-default">
                     <div className="col-xl-3 col-lg-4 col-6">
                       <PostLoader />

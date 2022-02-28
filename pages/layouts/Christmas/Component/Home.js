@@ -3,11 +3,18 @@ import Slider from "react-slick";
 import { Media } from "reactstrap";
 
 const Home = () => {
+  const settings = {
+    fade: true,
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 2000,
+
+  };
   const banners = ['/assets/images/christmas/home-banner/1.jpg', '/assets/images/christmas/home-banner/2.jpg', '/assets/images/christmas/home-banner/3.jpg'];
   const Banner = ({ img }) => {
     return (
       <div>
-        <Media src={img} className="img-fluid" alt="" />
+        <Media src={img} className="img-fluid" style={{ width: '100%' }} alt="" />
         <div className="slider-details">
           <div>
             <h3>bring</h3>

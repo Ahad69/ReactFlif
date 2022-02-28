@@ -148,9 +148,9 @@ const NavBar = () => {
                   className={` ${menuItem.megaMenu ? "mega-menu" : ""}`}
                 >
                   <a className="nav-link" onClick={(e) => openMblNav(e)}>
-                    {" "}
+                    {""}
                     {t(menuItem.title)}
-                    <span className="sub-arrow"></span>
+
                   </a>
                   {menuItem.children && !menuItem.megaMenu ? (
                     <ul className="nav-submenu">
@@ -238,12 +238,12 @@ const NavBar = () => {
                               return (
                                 <div
                                   className={`${menuItem.megaMenuType == "small"
-                                      ? "col mega-box"
-                                      : menuItem.megaMenuType == "medium"
-                                        ? "col-lg-3"
-                                        : menuItem.megaMenuType == "large"
-                                          ? "col"
-                                          : ""
+                                    ? "col mega-box"
+                                    : menuItem.megaMenuType == "medium"
+                                      ? "col-lg-3"
+                                      : menuItem.megaMenuType == "large"
+                                        ? "col"
+                                        : ""
                                     } `}
                                   key={i}
                                 >

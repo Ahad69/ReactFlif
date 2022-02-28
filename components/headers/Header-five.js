@@ -102,9 +102,9 @@ const HeaderFive = ({ logoName, topClass, direction }) => {
                         <Currency icon={"/assets/images/icon/setting.png"} />
                         {/*Header Cart Component */}
                         {direction === undefined ? (
-                          <CartContainer icon={"/assets/images/icon/cart.png"} />
+                          <CartContainer icon={"/assets/images/icon/setting.png"} />
                         ) : (
-                          <Cart icon={"/assets/images/icon/cart.png"} layout={direction} />
+                          <Cart icon={"/assets/images/icon/setting.png"} layout={direction} />
                         )}
                       </ul>
                     </div>

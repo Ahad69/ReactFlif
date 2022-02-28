@@ -72,7 +72,7 @@ const TopCollection = ({ type, title, subtitle, designClass, line, noSlider, car
                                         <div className={titleClass}>
                                             {subtitle ? <h4>{subtitle}</h4> : ''}
                                             <h2 className={innerTitle}>{title}</h2>
-                                                {line ?
+                                            {line ?
                                                 <div className="line"></div>
                                                 : ''}
                                         </div>

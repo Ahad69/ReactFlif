@@ -9,7 +9,7 @@ import Blog from "../components/common/Blog/blog1";
 import Instagram from "../components/common/instagram/instagram1";
 import LogoBlock from "../components/common/logo-block";
 import HeaderOne from "../components/headers/header-one";
-import { Product4 } from "../services/script";
+import { Product4, Product5 } from "../services/script";
 import Paragraph from "../components/common/Paragraph";
 import ModalComponent from "../components/common/Modal";
 import Helmet from "react-helmet";
@@ -32,12 +32,66 @@ const Fashion = () => {
         hrClass={false}
       />
       <TopCollection
-        noTitle="null"
+
         backImage={true}
         type="fashion"
-        title="top collection"
-        subtitle="special offer"
-        productSlider={Product4}
+        title="top fashion"
+
+        productSlider={Product5}
+        designClass="section-b-space p-t-0 ratio_asos"
+        noSlider="false"
+        cartClass="cart-info cart-wrap"
+      />
+      <TopCollection
+
+
+        type="goggles"
+        title="top Sun glasses"
+        s
+        productSlider={Product5}
+        designClass="section-b-space p-t-0 ratio_asos"
+        noSlider="false"
+        cartClass="cart-info cart-wrap"
+      />
+      <TopCollection
+
+        backImage={true}
+        type="watch"
+        title="top watch"
+
+        productSlider={Product5}
+        designClass="section-b-space p-t-0 ratio_asos"
+        noSlider="false"
+        cartClass="cart-info cart-wrap"
+      />
+      <TopCollection
+
+        backImage={true}
+        type="electronics"
+        title="top gadget and gear"
+
+        productSlider={Product5}
+        designClass="section-b-space p-t-0 ratio_asos"
+        noSlider="false"
+        cartClass="cart-info cart-wrap"
+      />
+      <TopCollection
+
+        backImage={true}
+        type="bags"
+        title="top Bags"
+
+        productSlider={Product5}
+        designClass="section-b-space p-t-0 ratio_asos"
+        noSlider="false"
+        cartClass="cart-info cart-wrap"
+      />
+      <TopCollection
+
+        backImage={true}
+        type="beauty"
+        title="top beauty"
+        productSlider={Product5}
         designClass="section-b-space p-t-0 ratio_asos"
         noSlider="false"
         cartClass="cart-info cart-wrap"

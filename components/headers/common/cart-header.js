@@ -18,7 +18,8 @@ const CartHeader = ({ item, symbol }) => {
           <div className="media-body">
             <Link href={"/product/" + item.id}>
               <a>
-                <h4>{item.name}</h4>
+
+                <p> {item.name}</p>
               </a>
             </Link>
 

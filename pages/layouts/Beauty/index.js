@@ -12,6 +12,7 @@ import Helmet from "react-helmet";
 import MasterFooter from "../../../components/footers/common/MasterFooter";
 
 const Beauty = () => {
+
   useEffect(() => {
     document.documentElement.style.setProperty("--theme-deafult", "#f0b54d");
 
@@ -37,6 +38,19 @@ const Beauty = () => {
           inner="title-inner1"
           productSlider={Product5}
           title="New Products"
+          subtitle="special offer"
+          designClass="p-t-0 ratio_asos"
+          noSlider="true"
+          cartClass="cart-info cart-wrap"
+        />
+      </div>
+      <div className="section-b-space">
+        <TopCollection
+          type="bags"
+          innerClass="title"
+          inner="title-inner1"
+          productSlider={Product5}
+          title="New Bags"
           subtitle="special offer"
           designClass="p-t-0 ratio_asos"
           noSlider="true"

@@ -55,7 +55,7 @@ export default function MyApp({ Component, pageProps }) {
               {/* <Head>
               <link rel="icon" type="image/x-icon" href={favicon} />
             </Head> */}
-              <title>flif - Multi-purpopse E-commerce React Template</title>
+              <title>flif -  E-commerce React </title>
             </Helmet>
             <div>
               <SettingProvider>

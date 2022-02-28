@@ -73,7 +73,7 @@ const HeaderEight = ({ logoName }) => {
                           <SearchOverlay />
                         </li>
                         <Currency icon={"/assets/images/icon/layout4/setting.png"} />
-                        <CartContainer icon={"/assets/images/icon/cart.png"} />
+                        <CartContainer />
                       </ul>
                     </div>
                   </div>

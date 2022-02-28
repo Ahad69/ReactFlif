@@ -45,12 +45,19 @@ const Banner = ({ imgClass, title, about, btn }) => {
   );
 };
 const MainBanner = () => {
+  const settings = {
+
+    autoplay: true,
+    speed: 5000,
+    autoplaySpeed: 4000,
+
+  };
   return (
     <Fragment>
       <title>flif | Beauty Store</title>
       <HeaderOne logoName={"layout3/logo.png"} topClass="top-header" />
       <section className="p-0">
-        <Slider className="slide-1 home-slider">
+        <Slider className="slide-1 home-slider" {...settings}>
           {Data.map((data, i) => {
             return (
               <MasterBanner

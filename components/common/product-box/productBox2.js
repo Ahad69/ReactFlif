@@ -81,6 +81,7 @@ const ProductItem = ({
               src={`${image ? image : product.images[1].src}`}
               className="img-fluid"
               alt=""
+
             />
           </div>
         ) : (
@@ -107,11 +108,10 @@ const ProductItem = ({
                 <Col lg="12">
                   <div className="media">
                     <Media
-                      src={`${
-                        product.variants && image
-                          ? image
-                          : product.images[0].src
-                      }`}
+                      src={`${product.variants && image
+                        ? image
+                        : product.images[0].src
+                        }`}
                       alt=""
                       className="img-fluid"
                     />
@@ -143,9 +143,8 @@ const ProductItem = ({
           <ul className="product-thumb-list">
             {product.images.map((img, i) => (
               <li
-                className={`grid_thumb_img ${
-                  img.src === image ? "active" : ""
-                }`}
+                className={`grid_thumb_img ${img.src === image ? "active" : ""
+                  }`}
                 key={i}
               >
                 <a href={null} title="Add to Wishlist">
@@ -182,9 +181,8 @@ const ProductItem = ({
             <Col lg="6" xs="12">
               <div className="quick-view-img">
                 <Media
-                  src={`${
-                    product.variants && image ? image : product.images[0].src
-                  }`}
+                  src={`${product.variants && image ? image : product.images[0].src
+                    }`}
                   alt=""
                   className="img-fluid"
                 />

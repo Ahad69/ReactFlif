@@ -32,9 +32,11 @@ const MasterProductDetail = ({
             (product.price - (product.price * product.discount) / 100) *
             currency.value
           ).toFixed(2)}
+          <br></br>
           <del>
             <span className="money">
               {currency.symbol}
+
               {(product.price * currency.value).toFixed(2)}
             </span>
           </del>
@@ -46,12 +48,12 @@ const MasterProductDetail = ({
         })}
 
         {product.type === "jewellery" ||
-        product.type === "nursery" ||
-        product.type === "beauty" ||
-        product.type === "electronics" ||
-        product.type === "goggles" ||
-        product.type === "watch" ||
-        product.type === "pets" ? (
+          product.type === "nursery" ||
+          product.type === "beauty" ||
+          product.type === "electronics" ||
+          product.type === "goggles" ||
+          product.type === "watch" ||
+          product.type === "pets" ? (
           ""
         ) : (
           <>

@@ -119,7 +119,7 @@ const NewProduct = ({ type, designClass, cartClass, spanClass }) => {
                     <TabContent
                       data={data}
                       startIndex={0}
-                      endIndex={8}
+                      endIndex={4}
                       cartClass={cartClass}
                       spanClass={spanClass}
                     />
