@@ -8,9 +8,9 @@ import { CurrencyContext } from "../../helpers/Currency/CurrencyContext";
 const CartContainer = ({ icon }) => {
   const context = useContext(CartContext);
   const currContext = useContext(CurrencyContext);
-  const symbol = currContext.state.symbol;
-  const cartList = context.state;
-  const total = context.cartTotal;
+  const symbol = currContext?.state?.symbol;
+  const cartList = context?.state;
+  const total = context?.cartTotal;
 
   return (
     <Fragment>

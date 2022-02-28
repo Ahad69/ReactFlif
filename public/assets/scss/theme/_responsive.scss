@@ -457,6 +457,7 @@ body {
   }
   .collection-banner {
     .contain-banner {
+      border: 2px dashed rgb(241, 181, 181);
       &.banner-3 {
         padding-left: 45px;
         padding-right: 45px;
@@ -3188,6 +3189,7 @@ body {
     }
   }
   .partition2 {
+   
     margin-bottom: -25px;
     > div {
       margin-bottom: 25px;

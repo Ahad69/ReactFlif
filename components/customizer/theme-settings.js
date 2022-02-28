@@ -14,6 +14,8 @@ import {
   Collapse,
 } from "reactstrap";
 
+
+
 const ThemeSettings = () => {
   const [isOpen, setIsOpen] = useState();
   const [collapse, setCollapse] = useState(0);
@@ -234,6 +236,8 @@ const ThemeSettings = () => {
     },
   ];
 
+
+  
   const MasterComponent = ({ ribon, bg, name, link, btnName }) => {
     return (
       <Col sm="6" className="text-center demo-effects">
@@ -452,28 +456,13 @@ const ThemeSettings = () => {
           </div>
         </div>
       </div>
+    
       <div className="addcart_btm_popup" id="fixed_cart_icon">
-        <a href={null} className="fixed_cart">
-          <i
-            className="fa fa-clone"
-            aria-hidden="true"
-            onClick={toggle}
-            title="Configuration"
-          ></i>
-        </a>
+       
       </div>
-      <Modal centered={true} isOpen={modal} toggle={toggle}>
-        <ModalHeader toggle={toggle}>Config</ModalHeader>
-        <ModalBody className="p-3">
-          {Object.keys(config).map((key, i) => (
-            <p key={i}>
-              <span>{key}:</span>
-              <span>{config[key]}</span>
-            </p>
-          ))}
-        </ModalBody>
 
-      </Modal>
+    
+      
 
       <ToastContainer />
     </div>

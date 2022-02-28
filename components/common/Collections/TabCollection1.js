@@ -162,7 +162,7 @@ const SpecialProducts = ({
             <div className={title}>
               <h4>{heading}</h4>
               {/* exclusive products */}
-              <h2 className={inner}>special products 1</h2>
+              <h2 className={inner}>special products </h2>
               {line ? (
                 <div className="line"></div>
               ) : hrClass ? (

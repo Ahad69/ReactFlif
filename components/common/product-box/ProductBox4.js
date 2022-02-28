@@ -105,7 +105,7 @@ const ProductBox4 = ({ product, addToCompare, addCart, addWishlist }) => {
             >
               add to cart
             </button>
-            <div className={`qty-box cart_qty ${isOpen ? "open" : ""}`}>
+            <div className={`qty-box cart_qty  ${isOpen ? "open" : ""}`}>
               <div className="input-group">
                 <span className="input-group-prepend">
                   <button

@@ -25,7 +25,7 @@ const MasterCollectionBanner = ({ img, about, offer, link, classes }) => {
       <Link href={link}>
         <a>
           <div className={`collection-banner ${classes}`}>
-            <Media src={img} className="img-fluid" alt="" />
+            <Media src={img} className="" style={{width:'250px' , height:'200px'}} alt="" />
             <div className="contain-banner">
               <div>
                 <h4>{offer}</h4>

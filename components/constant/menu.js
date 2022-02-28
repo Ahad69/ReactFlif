@@ -1,7 +1,7 @@
 export const MENUITEMS = [
 
    {
-      title: 'Shop', type: 'sub', children: [
+      title: 'Shop', type: 'link', children: [
          // { path: '/shop/left_sidebar', title: 'Left Sidebar', type: 'link' },
          // { path: '/shop/right_sidebar', title: 'Right Sidebar', type: 'link' },
          // { path: '/shop/no_sidebar', title: 'No Sidebar', type: 'link', },
