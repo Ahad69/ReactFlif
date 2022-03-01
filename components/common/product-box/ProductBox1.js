@@ -86,6 +86,8 @@ const ProductItem = ({
           ""
         )}
 
+ {/* 2020-21 FlifMart */}
+ {/* FlifMart Bangladesh */}
         <div className={cartClass}>
           <button title="Add to cart" onClick={addCart}>
             <i className="fa fa-shopping-cart" aria-hidden="true"></i>

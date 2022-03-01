@@ -171,7 +171,7 @@ const Become = () => {
             <div>
               <h4>start selling</h4>
               <p>
-                flif marketplace is India’s leading platform for selling
+                flif marketplace is  leading platform for selling
                 online. Be it a manufacturer, vendor or supplier, simply sell
                 your products online on flif and become a top ecommerce
                 player with minimum investment. Through a team of experts
