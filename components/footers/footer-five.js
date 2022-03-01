@@ -162,11 +162,19 @@ const FooterFive = ({ layoutClass, logoName }) => {
                         <div className="footer-contant">
                           <ul className="contact-details">
                             <li>
+<<<<<<< HEAD
                              FlifMart Bnagladesh
                             </li>
                             <li>Call Us: 123-456-7898</li>
                             <li>
                               Email Us: <a href="#">Support@FlifMart.com</a>
+=======
+                            FlifMart Bangladesh
+                            </li>
+                            <li>Call Us: 123-456-7898</li>
+                            <li>
+                              Email Us: <a href="mailto:support@flifmart.com">support@flifmart.com</a>
+>>>>>>> f62621069ea1777f32b6de959848f2b862f0bb13
                             </li>
                             <li>Fax: 123456</li>
                           </ul>
