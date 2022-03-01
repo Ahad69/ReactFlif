@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row ,Col} from 'reactstrap';
+import { Container, Row, Col } from 'reactstrap';
 
 
 const FooterNine = () => {
@@ -10,8 +10,8 @@ const FooterNine = () => {
                     <Row>
                         <Col xl="6" md="6" sm="12">
                             <div className="footer-end">
-                                <p><i className="fa fa-copyright" aria-hidden="true"></i> 2017-18 themeforest powered by
-                                pixelstrap</p>
+                                <p><i className="fa fa-copyright" aria-hidden="true"></i> 2020-21 FlifMart
+                                </p>
                             </div>
                         </Col>
                         <Col xl="6" md="6" sm="12">
